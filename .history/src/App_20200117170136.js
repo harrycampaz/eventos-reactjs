@@ -4,7 +4,6 @@ import CategoriesProvider from "./context/CategoriesContext";
 
 import Search from "./components/Search";
 import EventProvider from "./context/EventContext";
-import ListEvents from "./components/event/ListEvents";
 
 function App() {
   return (
@@ -13,8 +12,6 @@ function App() {
         <Header />
         <div className="uk-container">
           <Search />
-
-          <ListEvents />
         </div>
       </CategoriesProvider>
     </EventProvider>
